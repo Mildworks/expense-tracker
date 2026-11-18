@@ -13,6 +13,28 @@ Note: the app interface is written in Indonesian (Bahasa Indonesia). The code an
 - Dashboard with yearly totals, a monthly income vs expense bar chart, and a per-category breakdown
 - Responsive layout (sidebar on desktop, bottom navigation on mobile)
 
+
+
+## Screenshots
+
+<img width="1558" height="838" alt="image" src="https://github.com/user-attachments/assets/617736d5-9e6f-42e7-8b89-b7928b321de3" />
+
+<img width="1559" height="834" alt="image" src="https://github.com/user-attachments/assets/3b4f12c7-4911-4847-a8bc-f523d572c278" />
+
+<img width="1556" height="834" alt="image" src="https://github.com/user-attachments/assets/52edb565-9f68-4c16-ba64-eb926a611448" />
+
+<img width="1558" height="846" alt="image" src="https://github.com/user-attachments/assets/a387949d-88f7-4e3c-b78b-7f18f0191881" />
+
+<img width="1559" height="834" alt="image" src="https://github.com/user-attachments/assets/745519cb-15ab-4232-8d64-fa167fe469dd" />
+
+<img width="1557" height="833" alt="image" src="https://github.com/user-attachments/assets/e00189b7-769a-41a4-b04e-d573e130ca3e" />
+
+
+
+
+
+
+
 ## Tech Stack
 
 - Frontend: React (Vite), Tailwind CSS v4, React Router, Axios, Recharts
