@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+
+  --color-page: #ffffff;
+  --color-mist: #dcebf5;
+  --color-block: #eef5fa;
+  --color-field: #c9dfee;
+  --color-ink: #14212f;
+  --color-muted: #55677a;
+  --color-brand: #1f5fa8;
+  --color-income: #137a55;
+  --color-expense: #c0415f;
+
+  --radius-ui: 0.75rem;
+  --radius-card: 1.75rem;
+}
+
+@layer base {
+  body {
+    @apply bg-page text-ink font-sans antialiased;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-brand);
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
